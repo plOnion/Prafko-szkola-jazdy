@@ -229,3 +229,110 @@ nav {
 .logo {
     margin: 0 auto 10px auto;
 }
+
+
+/* ------------OFFER------------ */
+.card {
+    background: #08214A;
+    color: #0980C8;
+    border: 1px solid #0980C8;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card__icon {
+    margin: 25px;
+}
+
+.price {
+    color: #fff;
+    font-size: 1.75rem;
+}
+
+.price span {
+    font-size: 1.3rem;
+}
+
+.call {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.call__link {
+    color: #fff;
+}
+
+.call:hover,
+.call:hover .call__link {
+    color: #08214A;
+    background: #FFFFFF;
+}
+
+.call__link:hover {
+    color: #08214A;
+    background: #FFFFFF
+}
+
+.offer__container {
+    background: #08214A;
+    padding-top: 50px;
+}
+
+.offer__heading {
+    color: #FFFFFF;
+}
+
+.offer__card__box {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px
+}
+
+.card__heading,
+.card__description {
+    height: 175px;
+}
+
+.line-dark {
+    border-color: #08214A;
+}
+
+.offer__info {
+    width: 100%;
+    margin: 0 auto 50px auto;
+}
+
+.offer__info__image {
+    padding: 0;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.offer__info__image::after {
+    background: #0980C8;
+    position: absolute;
+    top: 18px;
+    left: -15px;
+    height: 23vw;
+    width: 100%;
+    z-index: -2;
+    transition: all .2s ease-in-out;
+    content: "";
+}
+
+.offer__info__text {
+    padding: 0;
+}
+
+.offer__info__text ul {
+    list-style: none;
+}
+
+.offer__info__text ul li {
+    margin-bottom: 10px;
+    text-align: justify;
+}
