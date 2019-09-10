@@ -470,3 +470,135 @@ footer {
 .footer__icon:hover {
     color: #0980C8;
 }
+
+@media (min-width: 768px) {
+
+
+
+    .quote__photo {
+        order: 2;
+    }
+
+    .contact__box {
+        width: 300px;
+        height: 300px;
+        margin: 0;
+    }
+
+    .contact__box__link {
+        flex-direction: column;
+    }
+
+    .contact__box__icon {
+        font-size: 7.5rem;
+    }
+
+    .footer__copy {
+        order: 1;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .socials {
+        order: 2;
+    }
+
+    .copy,
+    .madeBy {
+        margin: 0;
+    }
+
+    @media (min-width: 992px) {
+        .logo {
+            margin: 0 1.2vw
+        }
+
+        .hamburger {
+            display: none;
+        }
+
+        .navigation {
+            visibility: visible;
+            position: relative;
+            height: auto;
+            top: 0;
+            transition: none;
+            transform: translateY(0);
+            width: 100%;
+            margin: 0 20px;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .navigation__list {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .navigation__item {
+            padding: 0 1.4vw;
+            margin: 0;
+            font-size: 1.3rem;
+            border-right: 2px solid #0980C8;
+        }
+
+        .navigation__item:last-of-type {
+            border: none;
+        }
+
+        .navigation__call {
+            position: relative;
+            margin: 10px auto;
+            width: 70%;
+            background: none;
+        }
+
+        .navigation__call a {
+            color: #fff;
+        }
+
+        .navigation__call::before,
+        .navigation__call::after {
+            background: #0980C8;
+            position: absolute;
+            top: 0;
+            height: 100%;
+            transform: skewX(-10deg);
+            transition: all .2s ease-in-out;
+            content: "";
+        }
+
+        .navigation__call::before {
+            right: 10px;
+            left: 10px;
+            z-index: -1;
+        }
+
+        .navigation__call::after {
+            right: 0;
+            left: 0;
+            z-index: -2;
+            background: rgba(9, 128, 200, 0.6);
+        }
+
+        .navigation__call__link {
+            flex-direction: row;
+            justify-content: space-around;
+            border-top: none;
+        }
+
+        .navigation__call__link:hover span {
+            color: #08214A;
+        }
+
+        .about__text {
+            order: 1;
+        }
+
+        .about__img {
+            order: 2;
+        }
+    }
+}
