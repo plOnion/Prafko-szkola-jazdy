@@ -372,4 +372,21 @@ nav {
 }
 
 
+/* -------OPINION--------- */
+
+.opinion__item {
+    margin-bottom: 50px;
+}
+
+.opinion__item__avatar {
+    border-radius: 50%
+}
+
+.opinion__item__text {
+    font-style: italic;
+}
+
+.quote {
+    order: 2;
+}
 
