@@ -443,3 +443,30 @@ nav {
 .contact__box__text {
     font-size: 2rem;
 }
+
+
+/* ----------FOOTER---------- */
+
+footer {
+    background: #D1D1D1;
+    color: #777777;
+    text-align: center;
+}
+
+.footer__copy {
+    order: 2;
+    flex-direction: column;
+}
+
+.socials {
+    font-size: 1.3rem
+}
+
+.footer__icon {
+    color: #08214A;
+    font-size: 3rem;
+}
+
+.footer__icon:hover {
+    color: #0980C8;
+}
