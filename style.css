@@ -336,3 +336,40 @@ nav {
     margin-bottom: 10px;
     text-align: justify;
 }
+
+
+/* --------------ABOUT US---------------- */
+
+#about {
+    background: #08214A;
+    color: #FFFFFF;
+}
+
+.about__heading {
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.about__box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about__img {
+    padding: 0;
+}
+
+.about__img__description {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fff;
+    margin: 0 10px 30px;
+}
+
+.about__text {
+    margin-bottom: 50px;
+    order: 2;
+}
+
+
+
