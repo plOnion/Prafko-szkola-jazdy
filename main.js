@@ -9,8 +9,9 @@ const handleClick = () => {
 }
 
 hamburger.addEventListener('click', handleClick);
-menuItem.forEach(item =>{
-    item.addEventListener('click', handleClick)});
+menuItem.forEach(item => {
+    item.addEventListener('click', handleClick)
+});
 
 const menu = document.querySelector("nav");
 const call = [...document.querySelectorAll(".call__link")];
