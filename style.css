@@ -390,3 +390,56 @@ nav {
     order: 2;
 }
 
+
+/* ------CONTACT------- */
+
+#contact {
+    background: #08214A;
+    color: #fff;
+}
+
+.contact__heading {
+    color: #FFFFFF;
+}
+
+.contact__box {
+    width: 90%;
+    height: 130px;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__box--phone {
+    background: #fff;
+    color: #0980C8;
+}
+
+.contact__box--mail {
+    background: #0980C8;
+}
+
+.contact__box__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__box__link:hover {
+    color: #08214A;
+}
+
+.contact__box__icon {
+    font-size: 3rem;
+}
+
+.box__link__mail {
+    color: #fff;
+}
+
+.contact__box__text {
+    font-size: 2rem;
+}
